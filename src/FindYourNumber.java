@@ -14,7 +14,7 @@ public class FindYourNumber {
         if (low==high){
             return low;
         }
-        int mid=low+(high-low)/2;
+        int mid=(low+high)/2;
         System.out.println("Is your number between "+low+" and "+mid+" ? (true/false)");
         boolean answer=sc.nextBoolean();
         if (answer){
