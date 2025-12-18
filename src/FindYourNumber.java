@@ -15,7 +15,7 @@ public class FindYourNumber {
             return low;
         }
         int mid=(low+high)/2;
-        System.out.println("Is your number between "+low+" and "+mid+" ? (true/false)");
+        System.out.println("Is your number between "+low+" and "+mid+" ? (Enter only in form of : true/false)");
         boolean answer=sc.nextBoolean();
         if (answer){
             return guessNumber(low,mid,sc);
